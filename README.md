@@ -6,6 +6,6 @@ Sample project using bootstrap template AdminLTE - https://almsaeedstudio.com/
 
 ### Goals:
 - [ ] Add Backbone.js framework
-- [ ] Add Jade templates
+- [x] Add starter Jade template ('jade/starter_jade.jade => 'starter_jade.html')
 - [x] Add LESS (already included)
-- [ ] Add grunt task for Jade
+- [x] Add grunt task for Jade
