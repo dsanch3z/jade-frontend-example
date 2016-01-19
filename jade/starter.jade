@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+  include ./partials/head.jade
+  body.hold-transition.skin-blue.sidebar-mini
+    div.wrapper
+      header.main-header
+        a(class="logo", href="index2.html")
+          span.logo-mini LT
+            b A
+          span-logo-lg LTE
+            b Admin
+        include ./partials/navbar.jade
+      include ./partials/sidebar.jade
+      div(class="content-wrapper")
+        section(class="content-header")
+          h1=title
+            
+        section.content
+          h1 This HTML comes from a Jade Template!
+          small More content...
+        
+      include ./partials/footer.jade
+      
+      include ./partials/control-sidebar.jade
+      
+      div(class="control-sidebar-bg")
+    
+    include ./partials/scripts.jade
